@@ -9,7 +9,7 @@ Site e protótipo navegável feitos em HTML, CSS e JavaScript. Não precisam de 
 - index.html: landing page do projeto.
 - app.html: demonstração do aplicativo.
 - pitch.html: apresentação com roteiro de cinco minutos. Use as setas para navegar (no slide do vídeo, use **Continuar**), Espaço para iniciar ou pausar o cronômetro nos slides sem vídeo e F para alternar tela cheia. Pressione G fora da tela cheia para abrir o guia de ensaio.
-- [Pitch em PDF](output/pdf/Sobrou-Pitch.pdf): os oito slides, com links para a animação, a demo do app e os QR codes no encerramento.
+- [Apresentação em PDF](output/pdf/Sobrou-Pitch.pdf): oito slides, com links para a animação e para a demo.- [PDF interativo](output/pdf/Sobrou-Apresentacao-Interativa.pdf): vídeos incorporados nas páginas 4 e 5. Baixe e abra no Adobe Acrobat Reader para reproduzir.
 
 No quarto slide, uma animação de 35 segundos acompanha Joaquim enquanto ele encontra, reserva e retira uma sacola de pães. O vídeo abre em tela cheia, e cada cena espera a conclusão de sua fala quando há voz disponível no navegador. No quinto slide, o tour do aplicativo leva 14 segundos até a confirmação da reserva.
 
