@@ -50,6 +50,41 @@
 }
 .pitch-page .opening-slide,
 .pitch-page .market-slide{background:var(--sobrou-cream)!important;color:var(--sobrou-forest)!important}
+.pitch-page .pitch-stage .opening-slide:not([hidden]){
+  display:grid;
+  grid-template-columns:55% 45%;
+  padding:0!important;
+}
+.cover-copy{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  gap:clamp(14px,4vh,44px);
+  min-width:0;
+  padding:6.5vh 5vw 6.5vh 7vw;
+}
+.cover-logo{display:block;width:clamp(130px,16.5vw,300px);max-height:15vh;object-fit:contain;object-position:left}
+.pitch-page .cover-message h1{
+  margin:0!important;
+  font-size:clamp(45px,6.5vw,128px)!important;
+  line-height:.99!important;
+  letter-spacing:-.06em;
+}
+.cover-message p{max-width:30ch;margin-top:clamp(12px,3vh,30px);font-size:clamp(17px,1.65vw,30px);line-height:1.4;color:#315642}
+.cover-signature{margin:0;padding-top:13px;border-top:2px solid #d1dfa9;font-size:clamp(13px,1.15vw,21px);font-weight:600;color:#315642}
+.cover-photo{position:relative;margin:0;min-width:0;min-height:0;overflow:hidden;background:#17392d}
+.cover-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.cover-photo figcaption{position:absolute;left:8%;right:8%;bottom:6.5vh;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:clamp(12px,1.25vw,24px);background:#092f25;color:#fff8ec;border-left:4px solid #f18a3b;font-size:clamp(14px,1.25vw,24px);line-height:1.2}
+.cover-photo strong{white-space:nowrap;color:#d1dfa9;font-size:clamp(19px,1.75vw,33px)}
+@media(max-width:700px){
+  .pitch-page .pitch-stage .opening-slide:not([hidden]){grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) 39%}
+  .cover-copy{padding:4vh 6vw;gap:12px}
+  .cover-logo{width:clamp(125px,32vw,170px);max-height:9vh}
+  .pitch-page .cover-message h1{font-size:clamp(32px,9vw,59px)!important}
+  .cover-message p{margin-top:10px;font-size:clamp(14px,3.5vw,17px)}
+  .cover-signature{padding-top:7px}
+  .cover-photo figcaption{left:6vw;right:6vw;bottom:3vh}
+}
 .pitch-page .opening-slide h1,.pitch-page .market-slide h2{color:var(--sobrou-forest)!important}
 .pitch-page .opening-slide h1 em,.pitch-page .market-slide h2 em{color:var(--sobrou-rust)!important}
 .pitch-page :is(.opening-slide,.market-slide) :is(.slide-kicker,.slide-lead,.opening-signature){color:#315642!important}
