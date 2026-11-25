@@ -31,3 +31,4 @@ body.landing,body.app-body{background:#f7f6f0;color:#26352c;font-family:Arial,He
 .app-body .nav-item.active{box-shadow:inset 3px 0 #dc8750}
 .app-body .sidebar-card{border-top:2px solid #df9360}
 @media(max-width:760px){.app-body .app-banner{height:150px}.app-body .app-banner-brand{gap:7px;margin-bottom:8px}.app-body .app-banner-brand img{width:70px;height:22px}.app-body .app-banner-brand span{font-size:7px;padding-left:7px}.app-body .app-banner-mark{right:14px;width:52px;height:52px;font-size:28px}.app-body .app-banner>div{max-width:76%}}
+

@@ -1,0 +1,16 @@
+{
+  "detail": {
+    "modal": true,
+    "title": "Detalhes da oferta",
+    "checkout": true
+  },
+  "flow": {
+    "title": "Finalizar reserva",
+    "confirm": true
+  },
+  "step": {
+    "title": "Reserva confirmada",
+    "code": "SB1001"
+  },
+  "voices": []
+}

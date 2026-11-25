@@ -80,3 +80,4 @@ body.presentation-mode{background:#fcfcf8}body.presentation-mode .pitch-topbar,b
 .pitch-page.film-slide-active .pitch-controls{display:flex!important}
 .commercial-film #film-next-slide{position:absolute;z-index:9;top:16px;right:16px;width:auto;height:38px;padding:0 14px;border:0;border-radius:5px;background:#f18a3b;color:#18382e;font-size:13px;font-weight:700;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s}.commercial-film:hover #film-next-slide,.commercial-film.is-ended #film-next-slide,.commercial-film #film-next-slide:focus-visible{opacity:1;pointer-events:auto}
 @media(max-width:700px){.breakfast-table{right:5%;top:67%;width:90%;padding:9px;gap:10px}.breakfast-table>img{height:145px}.breakfast-table b{font-size:18px}.breakfast-table span{font-size:12px}.commercial-film #film-next-slide{top:10px;right:10px;height:32px;padding:0 9px;font-size:11px}.pitch-page.film-slide-active .pitch-controls{bottom:64px}}
+
