@@ -1,29 +1,27 @@
-# Sobrou — Site e demonstração do aplicativo
+# Sobrou
 
-Projeto estático com duas páginas em HTML, CSS e JavaScript, sem backend, dependências de instalação ou processo de build.
+Site e protótipo navegável feitos em HTML, CSS e JavaScript. Não precisam de instalação ou processo de build.
 
 ## Abrir
 
-- Abra `index.html` em um navegador para acessar a landing page.
-- Clique em “Explorar o app” para abrir a demonstração interativa.
-- A área do estabelecimento também fica disponível no menu Perfil do app.
+- screenshots/galeria.html: capturas em tamanho real dos slides, cenas da animação, app e landing page.
 
-## Publicar no GitHub Pages
+- index.html: landing page do projeto.
+- app.html: demonstração do aplicativo.
+- pitch.html: apresentação com roteiro de cinco minutos. Use as setas para navegar (no slide do vídeo, use **Continuar**), Espaço para iniciar ou pausar o cronômetro nos slides sem vídeo e F para alternar tela cheia. Pressione G fora da tela cheia para abrir o guia de ensaio.
+- [Pitch em PDF](output/pdf/Sobrou-Pitch.pdf): os oito slides, com links para a animação, a demo do app e os QR codes no encerramento.
 
-1. Crie um repositório no GitHub.
-2. Envie todos os arquivos desta pasta mantendo a estrutura de diretórios (index.html deve ficar na raiz).
-3. Abra Settings → Pages no repositório.
-4. Em Build and deployment, escolha Deploy from a branch, a branch principal e a pasta / (root). Salve.
-5. Após o deploy, abra o endereço indicado em Settings → Pages.
+No quarto slide, uma animação de 35 segundos acompanha Joaquim enquanto ele encontra, reserva e retira uma sacola de pães. O vídeo abre em tela cheia, e cada cena espera a conclusão de sua fala quando há voz disponível no navegador. No quinto slide, o tour do aplicativo leva 14 segundos até a confirmação da reserva.
 
-Todos os caminhos são relativos, compatíveis com um projeto GitHub Pages em subdiretório. O manifesto e service worker oferecem suporte básico a PWA quando hospedado por HTTPS. Não é preciso instalar o aplicativo para usar a demonstração.
+## Fluxo demonstrável do app
 
-## Funcionalidades da demonstração
+- Buscar, filtrar e ordenar ofertas ilustrativas.
+- Abrir uma oferta, escolher quantidade, simular o pagamento e confirmar a reserva.
+- Consultar o código em Pedidos e simular a retirada.
+- Salvar ofertas e usar o perfil de estabelecimento para cadastrar e ativar ofertas demonstrativas.
 
-- Exploração, busca, categorias e ordenação de ofertas fictícias.
-- Detalhes, quantidade, seleção simulada de pagamento, confirmação e código de retirada.
-- Favoritos, pedidos, perfil demo e simulação de retirada.
-- Área do estabelecimento com cadastro e ativação/desativação de ofertas fictícias.
-- Estado persistido no navegador via localStorage; opção de reinicializar no Perfil.
+O protótipo não processa pagamentos, não consulta estoques reais e não tem estabelecimentos parceiros conectados. As ofertas, preços, personagem e reservas são dados de demonstração. O navegador guarda o estado localmente; use a opção de reinicialização no Perfil para limpar a demonstração.
 
-Não há cadastro real, cobrança, conexão com estabelecimentos ou dados de localização em tempo real. Imagens e dados são ilustrativos.
+## Publicação
+
+O projeto é estático e compatível com GitHub Pages. Envie a pasta mantendo index.html na raiz do repositório e ative Pages em Settings → Pages. Os caminhos são relativos; o suporte básico a PWA funciona quando hospedado por HTTPS.

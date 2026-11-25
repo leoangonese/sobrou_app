@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 320" role="img" aria-label="Joaquim, estudante universitário">
+  <ellipse cx="90" cy="302" rx="58" ry="9" fill="#143c30" opacity=".12"/>
+  <path d="m58 191-8 81h31l13-75m13-6 7 81h32l-8-83" fill="#435365"/>
+  <path d="m50 267-5 23h43l-5-19m50-4 5 23h38l-8-23" fill="#f4f0e6"/>
+  <path d="M55 112q-23 9-22 39v67h34v-58m61-48q24 8 25 36v70h-35v-56" fill="#315c4a"/>
+  <path d="M61 112q29-20 59 0l19 91H43z" fill="#e47d3b"/>
+  <path d="m67 127-21 35m68-35 17 36" fill="none" stroke="#e47d3b" stroke-width="17" stroke-linecap="round"/>
+  <path d="M72 101h37v25H72z" fill="#d59c76"/>
+  <ellipse cx="91" cy="66" rx="34" ry="40" fill="#d9a27e"/>
+  <path d="M57 68Q48 22 91 19q45 2 37 50l-12-16-14-10Q83 58 59 58z" fill="#263d36"/>
+  <path d="M59 66q-8 19-1 31l9-7m56-24q8 19 1 31l-9-7" fill="#263d36"/>
+  <circle cx="78" cy="70" r="2.8" fill="#26332d"/><circle cx="102" cy="70" r="2.8" fill="#26332d"/>
+  <path d="M82 88q10 7 19-1" fill="none" stroke="#945d4d" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M44 149q-12 32-1 43l19-8-3-25m72-10q13 29 3 44l-18-8 3-26" fill="#d9a27e"/>
+</svg>

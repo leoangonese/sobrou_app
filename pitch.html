@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e3a2e">
+  <meta name="description" content="Apresentação de cinco minutos do Sobrou: proposta, experiência e impacto.">
+  <title>Pitch Sobrou — 5 minutos</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pitch.css">
+  <link rel="stylesheet" href="pitch-cartoon.css">
+</head>
+<body class="pitch-page">
+  <header class="pitch-topbar">
+    <a class="pitch-brand" href="index.html"><img src="assets/logo.png" alt="Sobrou"><span>APRESENTAÇÃO · 5 MIN</span></a>
+    <div class="pitch-top-actions"><button id="presenter-toggle" type="button" aria-expanded="false" aria-controls="presenter-guide">Guia de fala</button><button id="fullscreen-toggle" type="button" aria-label="Projetar apresentação em tela cheia">Apresentar</button><a href="index.html">Voltar ao site</a></div>
+  </header>
+  <aside class="presenter-guide" id="presenter-guide" hidden aria-live="polite"><div class="presenter-guide-head"><div><small>ENSAIO · ROTEIRO DE APOIO</small><b id="presenter-title">Abertura · 0:00–0:25</b></div><button id="presenter-close" type="button" aria-label="Fechar roteiro">Fechar</button></div><p id="presenter-copy"></p></aside>  <main class="pitch-main">
+    <div class="pitch-stage" aria-live="polite">
+      <section class="pitch-slide opening-slide active" data-time="25" data-title="Abertura" aria-label="Slide 1 de 8">
+  <div class="slide-kicker">SOBROU · PITCH DE PROJETO</div><div class="opening-layout"><div class="opening-copy"><h1>Comida boa.<br><em>Preço melhor.</em></h1><p class="slide-lead">O Sobrou conecta estabelecimentos com excedentes a pessoas que querem consumir bem, pagando menos.</p><p class="opening-signature">Menos desperdício. Mais valor no comércio local.</p></div><div class="opening-product"><div class="opening-product-photo"><img src="assets/offer-bakery.jpg" alt="Pães de uma oferta da padaria"><span>PÃO DA VILA · 800 M</span></div><div class="opening-product-copy"><small>OFERTA DO DIA</small><strong>Sacola surpresa</strong><div><b>R$ 9,90</b><del>R$ 24,90</del></div><span>Disponível para retirada hoje</span></div></div></div>
+</section>
+      <section class="pitch-slide" data-time="40" data-title="O problema" aria-label="Slide 2 de 8" hidden>
+  <div class="slide-kicker">01 · O PROBLEMA</div><h2>Todo dia, bons alimentos<br>podem virar <em>perda.</em></h2><p class="slide-lead">No fim do expediente, ainda há produtos próprios para consumo sem destino e sem compradores que saibam que estão disponíveis.</p><div class="problem-columns"><article><small>PARA O ESTABELECIMENTO</small><h3>Excedente parado</h3><p>O que não foi vendido pode representar perda de produto e de receita.</p></article><article><small>PARA QUEM COMPRA</small><h3>Oferta difícil de encontrar</h3><p>Uma boa opção, perto de casa e com preço especial, passa despercebida.</p></article></div><p class="evidence-note">Em 2022, 19% dos alimentos disponíveis ao consumidor foram desperdiçados no mundo. <a href="https://wedocs.unep.org/items/dbe2cd4c-8384-4636-8359-5847f42b9711/full" target="_blank" rel="noreferrer">PNUMA · Food Waste Index 2024</a>.</p>
+</section>
+      <section class="pitch-slide solution-slide" data-time="40" data-title="A solução" aria-label="Slide 3 de 8" hidden>
+  <div class="slide-kicker">02 · A SOLUÇÃO</div><h2>Uma forma simples de<br>conectar <em>oferta e bairro.</em></h2><p class="slide-lead">O Sobrou organiza a publicação, a descoberta e a retirada das ofertas do dia.</p><div class="solution-steps"><div><span>01</span><b>O parceiro publica</b><small>Produto, quantidade, preço e horário.</small></div><div><span>02</span><b>A pessoa encontra</b><small>Ofertas próximas, com informações claras.</small></div><div><span>03</span><b>Reserva e retira</b><small>Compra no próprio estabelecimento.</small></div></div><p class="solution-foot">O protótipo demonstra o fluxo; a operação ainda precisa ser validada com parceiros reais.</p>
+</section>
+      <section class="pitch-slide demo-slide" data-time="40" data-title="História do Joaquim" aria-label="Slide 4 de 8" hidden>
+  <div class="slide-kicker">03 · UMA HISTÓRIA ILUSTRATIVA</div><h2>Joaquim encontrou a sacola do dia.</h2>
+  <div class="commercial-film" id="demo-scene" aria-label="Animação: Joaquim encontra e reserva uma sacola de pães no Sobrou">
+    <article class="film-shot film-close story-market" data-film-scene="0"><img class="scene-photo" src="assets/pitch-cartoon-problem.jpg" alt="Fachada de comércio local"><div class="film-copy"><small>FIM DO DIA · JOAQUIM, UNIVERSITÁRIO</small><strong>Ele quer economizar<br>no café da manhã.</strong><span>Na padaria, a sacola de pães custa R$ 24,90.</span></div><img class="joaquim joaquim-market" src="assets/joaquim.svg" alt="Joaquim"><div class="story-price"><img src="assets/pitch-cartoon-bread.jpg" alt="Pães da oferta"><small>SACOLA DO DIA</small><b>R$ 24,90</b></div></article>
+    <article class="film-shot film-discovery story-discover" data-film-scene="1"><img class="scene-photo" src="assets/pitch-cartoon-discovery.jpg" alt="" aria-hidden="true"><div class="film-shade"></div><div class="film-copy"><small>UMA OFERTA PERTO DE CASA</small><strong>No Sobrou,<br>cabe no bolso.</strong><span>Sacola surpresa da Pão da Vila, por R$ 9,90.</span></div><img class="joaquim joaquim-discovery" src="assets/joaquim.svg" alt="Joaquim"><div class="app-offer-phone"><div class="app-phone-top"><span>sobrou</span><span>Ofertas por perto</span></div><div class="app-phone-photo"><img src="assets/pitch-cartoon-bread.jpg" alt="Pães da sacola surpresa"></div><div class="app-offer-body"><small>PÃO DA VILA · 800 M</small><b>Sacola surpresa</b><div class="app-offer-price"><strong>R$ 9,90</strong><del>R$ 24,90</del><i>−60%</i></div><div class="offer-expiry">6 disponíveis · hoje, 17h–19h</div><div class="app-reserve-cta">Reservar oferta <span>→</span></div><span class="app-touch" aria-hidden="true"></span></div></div></article>
+    <article class="film-shot film-reservation story-reserve" data-film-scene="2"><img class="scene-photo" src="assets/pitch-cartoon-pickup.jpg" alt="" aria-hidden="true"><div class="film-shade"></div><div class="film-copy"><small>RESERVA E RETIRADA PELO APP</small><strong>Reserva confirmada.<br>Ele retira a sacola.</strong><span>Horário combinado e código prontos no app.</span></div><img class="joaquim joaquim-pickup" src="assets/joaquim.svg" alt="Joaquim"><div class="film-ticket"><div class="ticket-check">✓</div><small>RESERVA CONFIRMADA</small><b>HOJE · 17H–19H</b><div class="ticket-line"></div><span>Pão da Vila · 800 m</span><strong>Código SB1001</strong></div></article>
+    <article class="film-shot film-pickup story-breakfast" data-film-scene="3"><img class="scene-photo" src="assets/pitch-cartoon-breakfast.jpg" alt="" aria-hidden="true"><div class="film-shade"></div><div class="film-copy"><small>NA MANHÃ SEGUINTE</small><strong>Café gostoso.<br><em>Preço mais leve.</em></strong><span>A padaria vende o excedente. Joaquim economiza.</span></div><img class="joaquim joaquim-breakfast" src="assets/joaquim.svg" alt="Joaquim"><div class="breakfast-table"><img src="assets/pitch-cartoon-bread.jpg" alt="Pães da sacola surpresa"><div><small>CAFÉ DA MANHÃ</small><b>R$ 15</b><span>economizados com a sacola</span></div></div></article>
+<button class="film-center-play" id="film-center-play" aria-label="Reproduzir demonstra&#231;&#227;o">&#9654;</button><button id="film-next-slide" type="button">Continuar &#8594;</button><div class="film-progress"><span></span></div><div class="film-endcard" data-film-scene="4"><img src="assets/logo.png" alt="Sobrou"><strong>O que sobra transforma.</strong><span>Mais economia &#183; Menos desperd&#237;cio &#183; Mais oportunidades</span></div><div class="film-disclaimer">PERSONAGEM E VALORES ILUSTRATIVOS</div>
+  </div>
+  <div class="demo-player"><button id="film-play" aria-label="Reproduzir">&#9654;</button><button id="film-restart" aria-label="Reiniciar">&#8635;</button><span id="demo-caption">Uma hist&#243;ria de economia e menos desperd&#237;cio.</span><input id="film-seek" type="range" min="0" max="35" step="0.1" value="0" aria-label="Progresso"><span id="film-time">0:00 / 0:35</span><label>Volume <input id="film-volume" type="range" min="0" max="1" step="0.05" value="0.8"></label><button id="film-fullscreen" aria-label="Tela cheia">&#x26F6;</button></div>
+</section>
+      <section class="pitch-slide app-demo-slide" data-time="25" data-title="Demonstração do app" aria-label="Slide 5 de 8" hidden>
+  <div class="app-demo-heading"><div><div class="slide-kicker">04 · DEMONSTRAÇÃO DO PRODUTO</div><h2>Da oferta ao código. Em segundos.</h2></div><p>Um percurso rápido pelo protótipo real do Sobrou.</p></div>
+  <div class="app-demo-layout">
+    <div class="app-demo-frame"><iframe id="app-demo-frame" src="app.html?pitch=1" title="Demonstração interativa do Sobrou em formato de celular" loading="eager" allow="clipboard-read; clipboard-write"></iframe></div>
+    <aside class="app-demo-steps" aria-label="Etapas da demonstração rápida">
+      <div class="app-demo-brand"><img src="assets/logo.png" alt=""><span>O QUE SOBRA TRANSFORMA</span></div>
+      <button class="app-tour-replay" id="app-tour-replay" type="button" disabled>▶ Iniciar demo em tela cheia</button>
+      <button class="app-tour-exit" id="app-tour-exit" type="button">Voltar ao pitch</button>
+      <ol><li class="active"><span>01</span><b>Encontrar</b><small>Ofertas próximas, com preço e horário.</small></li><li><span>02</span><b>Conferir</b><small>Veja os detalhes antes de reservar.</small></li><li><span>03</span><b>Reservar</b><small>Confirme a quantidade e a retirada.</small></li><li><span>04</span><b>Retirar</b><small>Apresente seu código no estabelecimento.</small></li></ol>
+      <p class="app-demo-caption" id="app-demo-caption" aria-live="polite">Inicie o percurso para acompanhar uma oferta até o código de retirada.</p>
+      <div class="app-tour-progress"><span id="app-tour-progress"></span></div>
+    </aside>
+  </div>
+</section>
+      <section class="pitch-slide market-slide" data-time="55" data-title="Mercado e modelo de negócio" aria-label="Slide 6 de 8" hidden>
+  <div class="slide-kicker">05 · MERCADO E MODELO</div><h2>Começar no bairro.<br><em>Crescer com evidências.</em></h2><p class="slide-lead">O mercado inicial reúne comércios com excedentes e pessoas que vivem ou circulam por perto.</p><div class="market-layout"><div class="market-fill"><small>MERCADO E EXPANSÃO</small><strong>Um bairro por vez</strong><span>Medir estabelecimentos elegíveis, excedentes e frequência de ofertas.</span><span>Replicar em bairros próximos quando oferta e procura se confirmarem.</span></div><div class="business-model"><small>HIPÓTESE DE RECEITA</small><h3>Comissão por reserva concluída</h3><p>Validar com os estabelecimentos se a comissão cobre os custos e gera valor para os dois lados.</p></div></div>
+</section>
+      <section class="pitch-slide traction-slide" data-time="45" data-title="Validação" aria-label="Slide 7 de 8" hidden>
+  <div class="slide-kicker">06 · VALIDAÇÃO</div><h2>O protótipo demonstra o fluxo.<br><em>Agora, medir na prática.</em></h2>
+  <div class="validation-layout">
+  <div class="evidence-column"><div><small>O QUE JÁ EXISTE</small><b>Busca, reserva, código de retirada e painel do estabelecimento.</b></div><div><small>O QUE SERÁ VALIDADO</small><b>Interesse, ofertas reais e retiradas concluídas.</b></div><div class="validation-next"><small>PRÓXIMA ETAPA</small><b>Testar com parceiros locais</b><p>Publicar ofertas reais e acompanhar a experiência de quem compra e de quem vende.</p></div></div>
+  </div>
+</section>
+      <section class="pitch-slide team-close-slide" data-time="30" data-title="Grupo e convite" aria-label="Slide 8 de 8" hidden>
+  <div class="slide-kicker">07 · EQUIPE E PRÓXIMO PASSO</div><h2>Equipe Sobrou</h2>
+  <div class="team-roster" aria-label="Integrantes do grupo">
+    <article class="team-member"><strong>Bruno Alano Justo</strong><small>Pesquisa do problema e público</small></article>
+    <article class="team-member"><strong>Leonardo Staniecki Angonese</strong><small>Protótipo e demonstração do app</small></article>
+    <article class="team-member"><strong>Pablo Eduardo Dutra Sarmento</strong><small>Mercado e modelo de negócio</small></article>
+    <article class="team-member"><strong>Vitor Bemfica</strong><small>Identidade visual e apresentação</small></article>
+  </div>
+  <p class="team-invite">Conhece algum comércio do bairro que toparia testar o Sobrou?</p>
+  <div class="pitch-qr-links" aria-label="Acesse o Sobrou pelos QR codes">
+    <a class="pitch-qr-card" href="https://leoangonese.github.io/sobrou_app/index.html" target="_blank" rel="noreferrer"><span class="pitch-qr-image"><img src="assets/qr-landing.svg" alt="QR code para abrir a landing page do Sobrou"></span><span><strong>Conheça o Sobrou</strong><small>Landing page</small></span></a>
+    <a class="pitch-qr-card" href="https://leoangonese.github.io/sobrou_app/app.html" target="_blank" rel="noreferrer"><span class="pitch-qr-image"><img src="assets/qr-app-demo.svg" alt="QR code para abrir a demonstração do app Sobrou"></span><span><strong>Experimente o app</strong><small>Demonstração interativa</small></span></a>
+  </div>
+</section>
+      <div class="slide-grain" aria-hidden="true"></div>
+    </div>
+    <footer class="pitch-controls"><button class="control-button" id="prev-slide" type="button" aria-label="Slide anterior">←</button><div class="slide-position"><span id="slide-number">01</span><div class="progress-track"><div id="slide-progress"></div></div><span>08</span></div><button class="control-button control-next" id="next-slide" type="button" aria-label="Próximo slide">→</button><div class="pitch-clock"><span class="clock-dot"></span><span id="clock-label">00:00</span><small>/ 05:00</small></div><button class="timer-toggle" id="timer-toggle" type="button">▶ Iniciar apresentação</button><span class="keyboard-tip">← → navegar · Espaço iniciar/pausar cronômetro</span></footer>
+  </main>
+  <script src="pitch.js" defer></script><script src="pitch-film.js" defer></script>
+</body>
+</html>
